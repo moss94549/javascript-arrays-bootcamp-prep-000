@@ -106,7 +106,8 @@ function destructivelyRemoveElementFromBeginningOfArray(anArray)
   
 function destructivelyRemoveElementFromEndOfArray(anArray)
 {
-  return anArray.pop();
+  anArray.pop();
+  return anArray;
 }
 
 function  removeElementFromBeginningOfArray(anArray)
