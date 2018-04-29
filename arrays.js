@@ -106,7 +106,7 @@ function destructivelyRemoveElementFromEndOfArray(anArray)
   return anArray.pop();
 }
 
-function  removeElementsFromBeginningOfArray(anArray)
+function  removeElementFromBeginningOfArray(anArray)
 {
   // return an array without the first element of anArray
   // notice to remove first element, the index begins at 1 not 0
@@ -143,6 +143,4 @@ function removeElementFromEndOfArray(anArray)
 // (the third element) and a slice from index 3 to the end
 
 var items = [1,2,3,4,5];
-[...items.slice(0,2), ...items.slice(3)]; // [1,2,4,5]
-
-
+[...items.slice(0,2), ...items.slice(3)]; // [1,2,4,5];
