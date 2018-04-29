@@ -90,8 +90,10 @@ function destructivelyAddElementToBeginningOfArray(anArray, anElement)
 
 function destructivelyAddElementToEndOfArray(anArray, anElement)
 {
-    // return a new array with anElement inserted at end of array
-    return anArray.push(anElement);
+    // return a new array with anElement 
+    // inserted at end of array
+    anArray.push(anElement);
+    return anArray
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(anArray)
