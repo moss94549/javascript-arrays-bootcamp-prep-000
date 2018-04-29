@@ -63,7 +63,7 @@ var myArray=[1,2,3];
 myArrray[5]= 5;   // position 3 and 4 are undefined 
                   // -> array start at 0
 
-function accessElementArray(anArray, index)
+function accessElemenIntArray(anArray, index)
 {
     // return element at anArry[index]
     return anArray[index];
