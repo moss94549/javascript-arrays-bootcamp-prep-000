@@ -81,6 +81,7 @@ function addElementToEndOfArray(anArray, anElement)
     return [...anArray,anElement];
 }
 
+// Destructive methods return value is the removed item
 function destructivelyAddElementToBeginningOfArray(anArray, anElement)
 {
   // return a anArray with anElement inserted at position 0
@@ -99,8 +100,8 @@ function destructivelyAddElementToEndOfArray(anArray, anElement)
 function destructivelyRemoveElementFromBeginningOfArray(anArray)
 {
   // return anArray with first element removed
-  return anArray.shift(); 
-  // return anArray.shift removes removed element
+  anArray.shift();
+  return anArray; 
 }
   
 function destructivelyRemoveElementFromEndOfArray(anArray)
