@@ -93,7 +93,7 @@ function destructivelyAddElementToEndOfArray(anArray, anElement)
     return anArray.push(anElement);
 }
 
-function destructiveRemoveElementFromBeginningOfArray(anArray)
+function destructivelyRemoveElementFromBeginningOfArray(anArray)
 {
   // return anArray with first element removed
   anArray.shift(); 
@@ -101,7 +101,7 @@ function destructiveRemoveElementFromBeginningOfArray(anArray)
   return anArray;
 }
   
-function destructiveRemoveElementFromEndOfArray(anArray)
+function destructivelyRemoveElementFromEndOfArray(anArray)
 {
   return anArray.pop();
 }
