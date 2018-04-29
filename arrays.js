@@ -84,7 +84,7 @@ function addElementToEndOfArray(anArray, anElement)
 function destructivelyAddElementToBeginningOfArray(anArray, anElement)
 {
   // return a anArray with anElement inserted at position 0
-  return anArry.unshift(anElement);
+  return anArray.unshift(anElement);
 }
 
 function destructivelyAddElementToEndOfArray(anArray, anElement)
